@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+.head-img {
+    display: block;
+    margin: 0;
+    position: relative;
+    /* Position relative for the pseudo-element */
+    height: fit-content;
+    /* Set the height as needed */
+    width: 100%;
+    /* Set the width to cover the full width */
+    overflow: hidden;
+    /* Prevent overflow */
+}
+
+.head-img::after {
+    content: "";
+    /* Required for pseudo-elements */
+    position: absolute;
+    top: 0;
+    /* Align to the top */
+    left: 0;
+    /* Align to the left */
+    right: 0;
+    /* Stretch to the right */
+    bottom: 0;
+    /* Stretch to the bottom */
+    background-color: rgba(122, 122, 122, 0.5);
+    /* White overlay with 50% opacity */
+    z-index: 0;
+}
+
+
+
+.contact {
+    margin-right: 15em;
+    float: right;
+    text-decoration: underline;
+    color: black;
+}
+
+.logo-2 {
+    display: inline;
+    position: absolute;
+    /* margin-inline: 4em; */
+
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    right: 2em;
+    top: 20px;
+    scale: 0.6;
+}
+
+.logo-3 {
+    display: inline;
+    position: absolute;
+    scale: 0.4;
+    z-index: 1;
+    right: 16em;
+    bottom: 68em;
+}
+
+
+
+.text h1,
+.text h3 {
+    color: white;
+    text-align: right;
+}
+
+.text h1 {
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.text h3 {
+    font-size: 1.3em;
+}
+
+.brand-head{
+    text-align: right;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    background-color: transparent;
+}
+.brand-head h1{
+    text-align: right;
+}
+.brand-section .card{
+    margin: 0;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    transition: scale 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Added box shadow */
+
+}
+.brand-section .card:hover{
+    scale: 1.1;
+}
+
+.about-head{
+    margin-right: 15em;
+    float: right;
+    text-decoration: underline;
+    color: black;
+}
