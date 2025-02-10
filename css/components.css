@@ -53,13 +53,23 @@
     scale: 0.6;
 }
 
-.logo-3 {
+/* .logo-3 {
     display: inline;
     position: absolute;
     scale: 0.4;
     z-index: 1;
     right: 16em;
     bottom: 68em;
+} */
+
+.logo-3{
+    display: inline;
+    position: absolute;
+    scale: 0.4;
+    z-index: 1;
+    top: -14%;
+    left: 32%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -87,6 +97,10 @@
 }
 .brand-head h1{
     text-align: right;
+    float: right;
+    text-decoration: underline;
+    color: black;
+    text-align: right; 
 }
 .brand-section .card{
     margin: 0;
@@ -102,8 +116,20 @@
 }
 
 .about-head{
-    margin-right: 15em;
+    text-align: right;
     float: right;
     text-decoration: underline;
     color: black;
+    text-align: right; 
+}
+
+.about-head{
+    float: right;
+}
+
+.about-card{
+    display: inline;
+    background-color: #49BEDF;
+    width: 960px;
+    height: 890px;
 }

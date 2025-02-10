@@ -1,0 +1,135 @@
+/* @media screen and (max-width: 490px) {
+    .brand-section img {
+        width: 14em;
+    }
+} */
+
+
+@media screen and (max-width: 655px) {
+    .brand-section {
+        gap: 3em;
+    }
+}
+
+@media screen and (max-width: 623px) {
+    .brand-section {
+        gap: 1em;
+    }
+
+}
+@media screen and (max-width: 880px) {
+    #carouselExample {
+        height: 20em;
+        width: 150vw;
+        right: 14em;
+    }
+}
+
+
+@media screen and (max-width: 752px) {
+    .brand-section img {
+        width: 14em;
+    }
+    #carouselExample {
+        height: 25em;
+        width: 254vw;
+        right: 14em;
+    }
+}
+
+@media screen and (max-width: 591px) {
+    .brand-section img {
+        width: 10em;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .brand-section img {
+        width: 7em;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #carouselExample {
+        height: 25em;
+        width: 326vw;
+        right: 14em;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    .about-us-cards .about-card{
+        padding: 2em;
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 752px) {
+    .brand-section img {
+        width: 17em;
+        gap: 5em;
+    }
+
+
+}
+
+@media (min-width: 900px) {
+    .about-card.first {
+        position: absolute;
+        right: 6em;
+    }
+
+    .about-card.second {
+        position: absolute;
+        right: 28em;
+        bottom: -40em;
+    }
+
+    .about-card.third {
+        position: absolute;
+        right: 6em;
+        bottom: -50em;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .about-us-cards .about-card {
+
+        width: 40em;
+    }
+
+    .about-card.first {
+        position: absolute;
+        right: 6em;
+    }
+
+    .about-card.second {
+        position: absolute;
+        right: 28em;
+        bottom: -35em;
+    }
+
+    .about-card.third {
+        position: absolute;
+        right: 6em;
+        bottom: -50.5em;
+    }
+}
+
+@media screen and (min-width: 1456px) {
+    .brand-section img {
+        width: 20em;
+    }
+}
+
+@media screen and (min-width: 1427px) {
+    .about-us-cards .about-card {
+        width: 50em;
+        right: 25%;
+    }
+}
+
+@media screen and (min-width: 1648px) {
+    .brand-section img {
+        width: 22em;
+    }
+}

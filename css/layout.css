@@ -21,7 +21,7 @@ body::before {
     top: 0; /* Align to the top */
     left: 0; /* Align to the left */
     right: 0; /* Stretch to the right */
-    bottom: 0; /* Stretch to the bottom */
+    bottom: -55em; /* Stretch to the bottom */
     background-image: url('imgs/tayari-logo.svg'); /* Replace with your logo path */
     background-size: 3000px; /* Ensures the image covers the entire area */
     background-position:center; /* Centers the image */
@@ -54,8 +54,58 @@ body::before {
 
 .brand-section img {
     margin: 0; /* Adds space between images */
-    width: 17em;
     height: auto; /* Maintain aspect ratio */
     padding: 0;
     background-color: transparent; /* Set background to transparent */
 }
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.about-us-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin-inline: 4em;
+    position: relative; /* Ensure it has a positioning context */
+    z-index: 0; /* Set z-index lower than the background */
+}
+
+.about-us-cards .about-card{
+    text-align: right;
+    padding: 4em;
+    border-radius: 2em;
+    width: 25em;
+    height:fit-content;
+    transition: scale 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a nice box shadow */
+}
+
+.about-card:hover{
+    scale: 1.05;
+}
+.about-card.second{
+    background-color: #E1C35E;
+}
+/* 
+.about-card.first{
+    position: absolute;
+    right: 6em;
+}
+
+.about-card.second{
+    background-color: #E1C35E;
+    position: absolute;
+    right: 28em;
+    bottom: -40em;
+}
+
+.about-card.third{
+    position: absolute;
+    right: 6em;
+    bottom: -50em;
+} */
