@@ -43,14 +43,15 @@
 .logo-2 {
     display: inline;
     position: absolute;
-    /* margin-inline: 4em; */
-
     z-index: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 1em;
     right: 2em;
     top: 20px;
-    scale: 0.6;
+}
+
+.logo-2 img {
+    display: block;
+    width: 200px;
+    height: auto;
 }
 
 /* .logo-3 {
